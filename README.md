@@ -4,5 +4,5 @@ just *3* ppl doin *sum* stuff
 ### Members:
 
 - Oleksandr Pospielov
-- Eric
+- Eric Paes Barreto
 - Ostap Siedin
