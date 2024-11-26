@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transports>
+    <tranport make="Stadler Rail" model="Stadler Tango Kraków Lajkonik">
+        <class>surface</class>
+        <type>tram</type>
+        <public type="bool">True</public>
+        <capacity>60</capacity>
+    </tranport>
+    <tranport make="BMW" model="M5">
+        <class>surface</class>
+        <type>private car</type>
+        <public type="bool">False</public>
+        <capacity>5</capacity>
+    </tranport>
+    <tranport make="Airbus" model="A320">
+        <class>air</class>
+        <type>commercial aircraft</type>
+        <public type="bool">True</public>
+        <capacity>180</capacity>
+    </tranport>
+</transports>

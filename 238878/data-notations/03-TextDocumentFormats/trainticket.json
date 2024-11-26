@@ -1,0 +1,15 @@
+{
+    "departure":"Warszawa Centralna",
+    "destination":"Kraków Główny",
+    "departureTime": "13.40",
+    "arrivalTime":"15:58",
+    "travelDate":"23.12.2024",
+    "pricePLN":224.77,
+    "distanceKM":293,
+    "seatReservation":true,
+    "seatInfo":{
+        "carNumber":5,
+        "seatNumber":21,
+        "seatPlacement":"Window"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "favorite_food":"greek salad",
+    "favorite_beverage":"sprite",
+    "favorite_food_calories":285,
+    "favorite_beverage_calories":39.4,
+    "on_diet":false,
+    "favorite_food_ingredients":[
+        "sliced cucumbers",
+        "tomatoes",
+        "green bell pepper",
+        "red onion",
+        "olives",
+        "feta cheese"
+    ],
+    "favorite_food_nutrients":{
+        "carbs_in_%":22,
+        "fat_in_%":66,
+        "protein_in_%":12
+    },
+    "favorite_beverage_nutrients":{
+        "carbs_in_%":99,
+        "fat_in_%":0.4,
+        "protein_in_%":0.5
+    }
+}

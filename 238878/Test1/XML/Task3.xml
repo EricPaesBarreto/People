@@ -1,0 +1,6 @@
+<food_types>
+    <salty format="string" cousine="mediterranean">anchovies</salty>
+    <spicy format="string" cousine="asian">curry</spicy>
+    <sweet format="string" cousine="north_american">apple pie</sweet>
+    <sour format="string" cousine="polish">zurek</sour>
+</food_types>

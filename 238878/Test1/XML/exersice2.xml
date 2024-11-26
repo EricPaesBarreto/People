@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<Restaurant>
+    <meal0>
+       <dish_code>2294</dish_code>
+       <dish_name>Masala dosa</dish_name>
+       <prepearing_time>36m</prepearing_time>
+       <serving_number>ab-223</serving_number>
+    </meal0>
+
+    <meal1>
+       <dish_code>3694</dish_code>
+       <dish_name>Seafood paella</dish_name>
+       <prepearing_time>22m</prepearing_time>
+       <serving_number>73-md</serving_number>
+    </meal1>
+
+    <meal2>
+       <dish_code>2357</dish_code>
+       <dish_name> Som tam</dish_name>
+       <prepearing_time>10m</prepearing_time>
+       <serving_number>ah-5</serving_number>
+    </meal2>
+
+    <meal3>
+       <dish_code>2245</dish_code>
+       <dish_name>Chicken rice</dish_name>
+       <prepearing_time>2m</prepearing_time>
+       <serving_number>aa-1</serving_number>
+    </meal3>
+
+    <meal4>
+       <dish_code>6547</dish_code>
+       <dish_name>Poutine</dish_name>
+       <prepearing_time>56m</prepearing_time>
+       <serving_number>my-36</serving_number>
+    </meal4>
+
+    <meal5>
+       <dish_code>1478</dish_code>
+       <dish_name>Buttered toast with Marmite</dish_name>
+       <prepearing_time>7</prepearing_time>
+       <serving_number>cy-97</serving_number>
+    </meal5>
+
+</Restaurant>

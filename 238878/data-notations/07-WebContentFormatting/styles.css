@@ -1,0 +1,36 @@
+/* Set a modern font for the form */
+body {
+    font-family: Arial, sans-serif; /* Change to Arial or Verdana */
+}
+
+/* Style the form elements */
+form div {
+    margin-bottom: 15px; /* Add space between form fields */
+}
+
+/* Style input, select, and textarea elements */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%; /* Make the form fields wider */
+    border: 1px solid #ccc; /* Add a simple border */
+    padding: 10px; /* Add some padding for better spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Add some padding */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Increase font size */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

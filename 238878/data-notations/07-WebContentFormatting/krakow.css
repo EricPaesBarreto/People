@@ -1,0 +1,20 @@
+th {
+background-color: #04AA6D;
+color: white;
+}
+th, td {
+padding: 15px;
+text-align: left;
+}
+td {
+color:lightcoral;
+border-color: black;
+
+}
+table, th, td {
+border: 2px solid;
+}
+table {
+border-collapse: collapse;
+}
+tr:hover {background-color: lightgreen;}

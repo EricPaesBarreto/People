@@ -1,0 +1,10 @@
+{
+    "brand": "Asus",
+    "model": "ROG Scar 16",
+    "year": 2023,
+    "isTouchscreen": false,
+    "devices": ["touchpad","webcam","keyboard"],
+    "releasePrice$": 3799.79,
+    "hasDedicatedGraphics": true,
+    "graphicsCard": "Nvidia RTX 4090"
+    }

@@ -1,0 +1,94 @@
+/* Set a consistent font and center the main heading */
+body {
+    font-family: Arial, sans-serif; /* Use Arial or any other preferred font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Center the main heading */
+h1 {
+    text-align: center;
+}
+
+/* Style for section titles */
+h2 {
+    background-color: #e0f7fa; /* Soft background color for section titles */
+    padding: 10px; /* Add padding for better spacing */
+    margin-top: 20px; /* Add margin to separate from previous content */
+}
+
+/* Style the paragraphs with different colors */
+h2:nth-of-type(1) ~ p {
+    color: darkgreen; /* Dark green for Grand Canyon section */
+}
+
+h2:nth-of-type(2) ~ p {
+    color: blue; /* Blue for Great Barrier Reef section */
+}
+
+h2:nth-of-type(3) ~ p {
+    color: gray; /* Gray for Mount Everest section */
+}
+
+/* Style the tables */
+table {
+    width: 100%; /* Make tables full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-bottom: 20px; /* Add space below tables */
+}
+
+th, td {
+    padding: 10px; /* Add padding to table cells */
+    border: 1px solid #ccc; /* Add border to table cells */
+    text-align: left; /* Left-align text in cells */
+}
+
+/* Style the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%; /* Make form inputs full width */
+    padding: 10px; /* Add padding for comfort */
+    margin-bottom: 15px; /* Add space between form elements */
+    border: 1px solid #ccc; /* Add border */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Add padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round corners */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Increase font size */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style the links */
+a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Add spacing between sections */
+section {
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+/* Add border to images or sections (if any) */
+img {
+    border: 2px solid #ccc; /* Add border to images */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
