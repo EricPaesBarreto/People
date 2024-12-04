@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\239289\\people\\239289\\System architecture\\AssemblyCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6F24CC-9EDA-44E7-A8E6-817FD8D7DA2B}|AssemblyCode\\AssemblyCode.vcxproj|D:\\239289\\people\\239289\\System architecture\\AssemblyCode\\AssemblyCode\\File1.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DA6F24CC-9EDA-44E7-A8E6-817FD8D7DA2B}|AssemblyCode\\AssemblyCode.vcxproj|solutionrelative:AssemblyCode\\File1.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "File1.asm",
+              "DocumentMoniker": "D:\\239289\\people\\239289\\System architecture\\AssemblyCode\\AssemblyCode\\File1.asm",
+              "RelativeDocumentMoniker": "AssemblyCode\\File1.asm",
+              "ToolTip": "D:\\239289\\people\\239289\\System architecture\\AssemblyCode\\AssemblyCode\\File1.asm",
+              "RelativeToolTip": "AssemblyCode\\File1.asm",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-04T09:04:17.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿  Assembling File1.asm...
+File1.obj : warning LNK4258: directive '/ENTRY:main@0' not compatible with switch '/ENTRY:main'; ignored
+  AssemblyCode.vcxproj -> D:\239289\people\239289\System architecture\AssemblyCode\Debug\AssemblyCode.exe
