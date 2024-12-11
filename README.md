@@ -6,3 +6,7 @@ just *3* ppl doin *sum* stuff
 - Oleksandr Pospielov 1
 - Eric Paes Barreto
 - Ostap Siedin
+
+=SUMIFS(Operations[Amount], Operations[Bank],Operations[@Bank],Operations[Month],$B$12)
+
+=[@[Closing Balance]]
