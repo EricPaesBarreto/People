@@ -9,4 +9,4 @@ just *3* ppl doin *sum* stuff
 
 =SUMIFS(Operations[Amount], Operations[Bank],Operations[@Bank],Operations[Month],$B$12)
 
-=[@[Closing Balance]]
+=[@[Opening balance]]+[@Operations]
