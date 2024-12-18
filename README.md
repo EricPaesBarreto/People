@@ -7,6 +7,6 @@ just *3* ppl doin *sum* stuff
 - Eric Paes Barreto
 - Ostap Siedin
 
-=SUMIFS(Operations[Amount], Operations[Bank],Operations[@Bank],Operations[Month],$B$12)
+=SUMIFS(Operations[Amount], Operations[Bank],[@Bank],Operations[Product],[@Product],Operations[Month],$B$12)
 
 =[@[Opening balance]]+[@Operations]
