@@ -1,0 +1,25 @@
+Task 1.
+1. Non-terminal-symbol (N): S
+2. Terminal symbols (Sigma): a, b, epsilon
+3. Start syymbol (S): S
+4. Prductions:
+	a. S --> aSa
+	b. S --> bSb
+	c. S --> epsilon
+
+6: aSa -> aaSaa -> aabSbaa -> aabbaa [a,b,c]
+8: SS -> aSaaSa -> abSbaabSba -> abbaabba [a,b,c]
+10: aSSa -> aaSaaSaa -> aabSbaabSbaa -> aabbaabbaa [a,b,c]
+
+Task 2.
+1. Non-terminal-symbols: S, A
+2. Terminal symbols: a, b, c, epsilon
+3. Start syymbol: S
+4. Prductions:
+	a. S --> aS
+	b. S --> bA
+	c. A --> cA
+	d. A --> epsilon
+
+aaabcc
+S -> aS -> aaS -> aaaS -> aaabA -> aaabcA -> aaabccA -> aaabcc [a,a,a,b,c,c,d]

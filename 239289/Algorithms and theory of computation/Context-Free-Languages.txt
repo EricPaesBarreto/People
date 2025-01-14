@@ -1,0 +1,63 @@
+Task 1.
+1. Non-terminal-symbol (N): S
+2. Terminal symbols (Sigma): a, b, epsilon
+3. Start syymbol (S): S
+4. Prductions:
+	a. S --> aSa
+	b. S --> bSb
+	c. S --> epsilon
+
+6: aSa -> aaSaa -> aabSbaa -> aabbaa [a,b,c]
+8: SS -> aSaaSa -> abSbaabSba -> abbaabba [a,b,c]
+10: aSSa -> aaSaaSaa -> aabSbaabSbaa -> aabbaabbaa [a,b,c]
+
+Task 2.
+1. Non-terminal-symbols: S, A
+2. Terminal symbols: a, b, c, epsilon
+3. Start syymbol: S
+4. Prductions:
+	a. S --> aS
+	b. S --> bA
+	c. A --> cA
+	d. A --> epsilon
+
+aaabcc
+S -> aS -> aaS -> aaaS -> aaabA -> aaabcA -> aaabccA -> aaabcc [a,a,a,b,c,c,d]
+
+Regular expression --> a*bc*
+
+Website for creating FSMs --> https://www.cs.unc.edu/~otternes/comp455/fsm_designer/
+
+Sate-transition diagramn:
+
+ |S|A|E|
+-|-|-|-|
+a|S|X|X|
+-|-|-|-|
+b|A|X|X|
+-|-|-|-|
+c|X|A|X|
+-|-|-|-|
+e|X|E|X|
+
+Task 3.
+	1. aaacdb
+	ans: Y | ends in terminal state
+	2. ababacdaaac
+	ans: Y | ends in terminal state
+	3. abcdb
+	ans: N | does not end in terminal state, ends in state 1 (c after b)
+	4. acda
+	ans: N | does not end in terminal state, ends in state 1 (a after d)
+	5. acdbdb
+	ans: Y | ends in terminal state
+
+Task 4.
+	1. 11001010
+	ans: N | ends in state 2
+	2. 10101100
+	ans: N | ends in state 2
+	3. 11011010
+	ans: N | ends in state 3
+	4. 11001100
+	ans: Y | ends in state 1
